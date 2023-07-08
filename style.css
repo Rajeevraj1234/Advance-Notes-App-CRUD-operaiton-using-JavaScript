@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+}
+
+.navbar{
+    width: 100vw;
+    height: 9vh;
+    background-color: rgb(195, 195, 1);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar span{
+    font-size: 25px;
+}
+
+.navbar input{
+    font-size: 15px;
+    min-width: 350px;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.navbar button{
+    font-size: 20px;
+    min-width: 150px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    transition: 0.2s linear;
+}
+
+.navbar button:hover{
+    background-color: rgba(0, 0, 0, 0.875);
+    color: white;
+}
+
+
+.addNoteDivOuter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.addNoteDiv{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid grey;
+    /* width: 50vw;
+    height: 20vw; */
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius:5px;
+}
+
+.addNoteDiv input{
+    font-size: 20px;
+    width: 450px;
+    padding: 5px 4px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.addNoteDiv textarea{
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 5px 4px;
+    width: 450px;
+    height: 100px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.addNoteDiv button{
+    background-color: rgb(195, 195, 1);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 70px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#updateBtn{
+    display: none;
+}
+
+.allNoteBox{
+    /* border: 1px solid black; */
+    margin: 20px 40px;
+
+}
+
+.notes{
+    border: 2px solid grey;
+    display: inline-block;
+    padding: 10px;
+    height: 160px;
+    width: 270px;
+    border-radius: 5px;
+    margin: 20px 40px;
+    position: relative;
+
+
+}
+
+.title{
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+.desc{
+    font-size:15px ;
+    font-family: monospace;
+    overflow: scroll;
+    height: 100px;
+}
+
+.delete{
+    font-size: 25px;
+    margin-right: 10px;
+    background-color: rgb(195, 195, 1);
+    padding: 5px 8px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.edit{
+    font-size: 25px;
+    margin-right: 10px;
+    background-color: rgb(195, 195, 1);
+    padding: 5px 8px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 60px;
+}

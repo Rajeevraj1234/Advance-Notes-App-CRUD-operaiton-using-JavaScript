@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App Using CRUD Operation</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <span>KeeP</span>
+        <input class="navSearchBox" type="search" placeholder="Search">
+        <button class="addNoteBtn">Add Notes</button>
+    </div>
+    <div class="addNoteDivOuter">
+        <div class="addNoteDiv" >
+            <input class="inputTitle" type="text" placeholder="Title">
+            <textarea class="inputDesc" placeholder="Description"></textarea>
+            <div>
+                <button class="saveBtn">Save</button>
+                <button id="updateBtn">Update</button>
+                <button class="closeBtn">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="allNoteBox">
+        <!-- <div class="notes">
+            <div>
+                <p class="title">First</p>
+                <p class="desc">This is first box</p>
+            </div>
+            <div>
+                <span class="delete" ><ion-icon name="trash-outline"></ion-icon></span>
+                <span class="edit"><ion-icon name="create-outline"></ion-icon></span>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
