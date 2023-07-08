@@ -1,6 +1,19 @@
 let addNote = document.querySelector(".addNoteBtn");
 let noteDivOuter = document.querySelector(".addNoteDivOuter");
 
+====================== Random Dump of Data ==================================
+// This is Just to Save Some Data into your Local Storage 
+let data = [
+    { title: "First Note", desc: "This is first Note" },
+    { title: "Second", desc: "This is Second Note" },
+    { title: "Third", desc: "This is Third Note" },
+    { title: "Fourth", desc: "This is Fourth Note" },
+];
+
+localStorage.setItem("note", JSON.stringify(data));
+
+================================================================================
+
 
 // ====================================== Showing Notes   =============================================
 
@@ -154,65 +167,3 @@ sBox.addEventListener("input", () => {
 // ================================== Showing Notes in the Beginning =================================
 showNotes();
 // ===================================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ====================== Random Dump of Data ==================================
-
-// let data = [
-//     { title: "First", desc: "This is first" },
-//     { title: "second", desc: "This is second" },
-//     { title: "third", desc: "This is third" },
-//     { title: "four", desc: "This is four" },
-// ];
-
-// localStorage.setItem("note", JSON.stringify(data));
-
-// ================================================================================
